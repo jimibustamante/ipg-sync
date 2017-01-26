@@ -1,0 +1,5 @@
+Descripción de desarrollo:
+
+Con el objetivo de mantener sincronizada la información sobre estudiantes en el CRM de Zoho y Umas, se desarrolló una tarea cada 4 horas que actualiza la información en ambas fuentes.
+Para ésto, se creó una pequeña aplicación que se encarga de, mediante un webservice en Umas y el API Zoho CRM, obtener la información de los matriculados en ambos sistemas, compararla y hacer las actualizaciones correspondientes de los nuevos registros, en caso que sea necesario.
+La aplicación está escrita en Javascript con NodeJs (más info sobre el proyecto en https://github.com/jimibustamante/ipg-sync) y se encuentra alojada en una instancia de Amazon.
