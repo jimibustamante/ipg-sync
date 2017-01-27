@@ -4,7 +4,7 @@
 ## Installation
 You only need to install what is in the package:
 ```bash
-$ sudo npm install
+$ [sudo] npm install
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ More info about [forever][0]
 
 With forever installed, and standed in project's root, lets start the cron task running:
 ``` bash
-  $ forever start lib/cron.js
+  $ forever start lib/cron.js -n 500
 ```
 
 To see where the log is:
