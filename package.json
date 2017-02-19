@@ -42,8 +42,10 @@
     "async": "^2.1.4",
     "easysoap": "^1.0.6",
     "node-schedule": "^1.2.0",
+    "node-xlsx": "^0.7.4",
     "node-zoho": "0.0.25",
     "soap": "^0.18.0",
+    "string-similarity": "^1.1.0",
     "underscore-node": "^0.1.2",
     "xml2json": "^0.10.0",
     "xmlbuilder": "^8.2.2"
