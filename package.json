@@ -39,9 +39,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "async": "^2.1.4",
+    "cron": "^1.2.1",
     "easysoap": "^1.0.6",
-    "node-schedule": "^1.2.0",
     "node-xlsx": "^0.7.4",
     "node-zoho": "0.0.25",
     "soap": "^0.18.0",
